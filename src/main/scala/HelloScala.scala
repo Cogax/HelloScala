@@ -5,6 +5,7 @@
 object HelloScala {
   def main(args: Array[String]) {
     println("Hello Scala!")
+    args.foreach(argument => println(argument))
   }
 }
 
