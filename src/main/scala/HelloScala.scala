@@ -11,7 +11,9 @@ object HelloScala {
     = // It's implementation is as follows:
       (x) // the parameter will be named x
       => x + 1 // it will return x + 1
+    println(testFunc(2)); // 3
 
-    println(testFunc(2));
+    val testFunc2:Int=>Int=x=>x+1; // same example as above
+    println(testFunc2(2)) // 3
   }
 }
